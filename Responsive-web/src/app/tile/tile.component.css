@@ -1,0 +1,32 @@
+
+.item{
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.8);
+    background-color: white;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+   
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 1px 1px;
+   
+    
+}
+
+.item:hover{
+    box-shadow: 5px 5px 5px rgba(7, 0, 0, 0.15);
+    transition: box-shadow 2s ease-in;
+}
+.img-container{
+    box-sizing: initial;
+    height:13vh;
+}
+img{
+    margin: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+   
+    height:10vh;
+}

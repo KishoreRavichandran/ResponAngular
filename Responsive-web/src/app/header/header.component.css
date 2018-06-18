@@ -1,0 +1,14 @@
+.h1{
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 1s;
+    text-align: center;
+   
+}
+    
+
+@-webkit-keyframes example {
+    0%   { left:-50px; top:0px;}
+    25%  { left:0px; top:0px;}}
